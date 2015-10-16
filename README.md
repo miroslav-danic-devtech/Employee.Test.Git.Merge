@@ -1,3 +1,1 @@
 # merge-test
-
-Test
