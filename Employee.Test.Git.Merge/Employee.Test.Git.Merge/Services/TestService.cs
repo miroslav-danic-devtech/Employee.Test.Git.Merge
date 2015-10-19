@@ -17,7 +17,7 @@ namespace Employee.Test.Git.Merge.Services
 
         public List<string> GetData()
         {
-            throw new NotImplementedException();
+            return _testRepository.GetData();
         }
     }
 }

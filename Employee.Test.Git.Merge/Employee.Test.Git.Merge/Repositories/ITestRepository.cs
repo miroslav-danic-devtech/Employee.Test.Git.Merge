@@ -8,5 +8,6 @@ namespace Employee.Test.Git.Merge.Repositories
 {
     public interface ITestRepository
     {
+        List<string> GetData();
     }
 }
