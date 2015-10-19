@@ -17,7 +17,7 @@ namespace Employee.Test.Git.Merge.Services
 
         public List<string> GetData()
         {
-            return _testRepository.GetData();
+            return _testRepository.GetData().Where(x => Int32.Parse(x.Split('-')[1]) > 3).ToList();
         }
     }
 }
