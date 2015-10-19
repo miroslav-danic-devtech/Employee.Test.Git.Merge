@@ -8,9 +8,14 @@ namespace Employee.Test.Git.Merge.Repositories
         {
             return new List<string>()
             {
-                "merge",
-                "Merge",
-                "MERGE"
+                "valid-1",
+                "valid-2",
+                "valid-3",
+                "valid-4",
+                "valid-5",
+                "valid-6",
+                "valid-7",
+                "valid-8"
             };
         }
     }
